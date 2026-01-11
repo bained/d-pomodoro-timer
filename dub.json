@@ -1,0 +1,15 @@
+{
+    "name": "d_pomodoro",
+    "description": "Pomodoro timer",
+    "authors": ["Ned"],
+    "copyright": "Copyright © 2026, Ned",
+    "license": "proprietary",
+    "targetType": "executable",
+    "lflags": ["/SUBSYSTEM:WINDOWS", "/ENTRY:mainCRTStartup"],
+    "libs": [
+        "user32",
+        "shell32",
+        "gdi32",
+        "comctl32"
+    ]
+}

@@ -13,6 +13,7 @@ d_pomodoro-test-*
 *.o
 *.obj
 *.lst
+*.pdb
 dist/
 for_github/
 
